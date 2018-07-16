@@ -7,4 +7,4 @@ It is an IOT project that uses ESP8266 module send a  alert to your Twitter Acco
 
 
 
- Note :- Since the project doesn't contain any api keys it you cannot run yourself and so the code is for refrence only.
+ Note :- Since the project doesn't contain any api keys you cannot run yourself and so the code is for refrence only.
