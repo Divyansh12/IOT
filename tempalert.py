@@ -2,9 +2,6 @@ import conf,json,time
 from boltiot import Sms,Bolt
 
 
-minimum_limit=500
-maximum_limit=600
-
 config = {
 "consumer_key"        : conf.consumer_key,
 "consumer_secret"     : conf.consumer_secret,
