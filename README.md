@@ -7,9 +7,9 @@ It is an IOT project that uses ESP8266 module send a  alert to your Twitter Acco
 
 
 ## Screenshots
-![Image Not Found!](/IOT pics/img1.png)
-![Image Not Found!](/IOT pics/img2.png)
-![Image Not Found!](/IOT pics/img3.png)
-![Image Not Found!](/IOT pics/img4.png)
+![Image Not Found!]("/IOT pics/img1.jpg")
+![Image Not Found!]("/IOT pics/img2.png")
+![Image Not Found!]("/IOT pics/img3.jpg")
+![Image Not Found!]("/IOT pics/img4.jpg")
 
  Note :- Since the project doesn't contain any api keys you cannot run yourself and so the code is for refrence only.
