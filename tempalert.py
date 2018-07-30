@@ -2,9 +2,6 @@ import conf,json,time
 from boltiot import Sms,Bolt
 
 
-minimum_limit=500
-maximum_limit=600
-
 config = {
 "consumer_key"        : conf.consumer_key,
 "consumer_secret"     : conf.consumer_secret,
@@ -24,6 +21,7 @@ sms=Sms(conf.SSID,conf.AUTH_TOKEN,conf.TO_NUMBER,conf.FROM_NUMBER)
 mailerone=Email(email_conf.MAILGUN_API_KEY,email_conf.SANDBOX_URL,email_conf.SENDER_EMAIL,email_conf.RECIPIENT_EMAIL)
 mailersec=Email(email_conf.MAILGUN_API_KEY,email_conf.SANDBOX_URL,email_conf.SENDER_EMAIL,email_conf.RECIPIENT_EMAIL_SEC)
 
+#To set the threshold to 25 deg celcius (since the Lm35 sensor gives a analog value it must be divided by 10.24 to convert to deg celcius.)
 temperature_threshold = 100*256/1024
 
 
